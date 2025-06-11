@@ -1,4 +1,16 @@
 [
-  {"PRJ_A": "ProjectA", "model": "GIT_Shared_Model_Example", "sha": "latest"},
-  {"PRJ_B": "ProjectA", "model": "GIT_Shared_Model_Example", "sha": "8eaa46a"}
+  {
+    "project": "PRJ_A",
+    "mapping": [
+      { "model": "GIT_Shared_Model_Example", "sha": "8eaa46a" },
+      { "model": "GIT_Shared_Model_Example_2", "sha": "latest" }
+    ]
+  },
+  {
+    "project": "PRJ_B",
+    "mapping": [
+      { "model": "GIT_Shared_Model_Example", "sha": "latest" },
+      { "model": "GIT_Shared_Model_Example_2", "sha": "latest" }
+    ]
+  }
 ]
