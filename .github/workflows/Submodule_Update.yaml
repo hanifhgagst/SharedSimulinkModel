@@ -1,9 +1,13 @@
 name: Submodule Update Integration
 
 on:
-  push:
-    branches:
-      - main   # Trigger when changes are pushed to SubmoduleX/main
+  #push:
+  #  branches:
+  #    - main   # Trigger when changes are pushed to SubmoduleX/main
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+  
+env:
+  GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
 jobs:
   update-models:

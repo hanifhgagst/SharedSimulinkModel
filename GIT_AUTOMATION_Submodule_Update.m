@@ -47,9 +47,6 @@ submodulePath = 'C:\Users\mhanif\Documents\HGA\EV\Project\BMS_Shared';
 submoduleMappingPath = [submodulePath,'\.github\config\submodule_mapping.json'];
 submoduleRoot = 'SharedSimulinkModel';
 submoduleModelPath = [submodulePath, '\Module'];
-prompt = "Please input your GitHub token : \n\n";
-token = input(prompt,'s');
-setenv("GITHUB_TOKEN", token);
 yourUsername =  'hanifhgagst';
 reviewers = {'YUKI-KUWANO'}; 
 baseBranch = 'master'; % it can be 'main' too so please check
